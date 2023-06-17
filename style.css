@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.blue-text {
+    color: #121139;
+}
+
+.blue-bg {
+    background-color: #121139;
+}
+
+.nav {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.nav__button {
+    width: 44px;
+    height: 17px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.burger-menu-btn {
+    width: 44px;
+    height: 17px;
+}
+
+.thumbnail-box {
+    padding: 205px 0 110px 0;
+    display: flex;
+}
+
+.thumbnail-box__image {
+    position: relative;
+}
+
+.thumbnail-box__card {
+    border-radius: 30px;
+    background: linear-gradient(177.23deg, #9C2CF3 -13.49%, #3A49F9 109.75%);
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0 0 45px #3A49F9;
+}
+
+.thumbnail-box__card--big {
+    width: 610px;
+    height: 350px;
+}
+
+.thumbnail-box__card--small {
+    width: 223px;
+    height: 290px;
+    position: absolute;
+    top: 156px;
+    left: 440px;
+}
+
+.bottom-left-stain, .top-right-stain {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bottom-left-stain {
+    border-top-right-radius: 100%;
+}
+
+.top-right-stain {
+    border-bottom-left-radius: 100%;
+}
+
+
+.bottom-left-stain--big {
+    width: 350px;
+    height: 160px;
+    margin-top: 35%;
+}
+
+.bottom-left-stain--small {
+    width: 200px;
+    height: 160px;
+    margin-top: 60%;
+    margin-right: -30%;
+}
+
+.top-right-stain--small {
+    width: 200px;
+    height: 160px;
+    margin-left: 30%;
+}
+
+.top-right-stain--big {
+    width: 350px;
+    height: 160px;
+}
