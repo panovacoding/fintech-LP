@@ -151,15 +151,19 @@ h1, .heading-text {
     position: absolute;
     bottom: 0;
     right: 0;
+    @media screen and (min-width:1600px) {
+        top: 45%;
+    }
     @media screen and (max-width: 1600px) {
         width: 190px;
         height: 250px;
-        top: 30%;
+        top: 55%;
         right: 0%;
     }
     @media screen and (max-width: 600px) {
         width: 90px;
         height: 118px;
+        right: -6%;
     }
 }
 
@@ -193,11 +197,19 @@ h1, .heading-text {
     width: 200px;
     height: 160px;
     margin-left: 30%;
+    @media screen and (max-width: 600px) {
+        width: 150px;
+        height: 70px;
+    }
 }
 
 .top-right-stain--big {
     width: 350px;
     height: 160px;
+    @media screen and (max-width: 600px) {
+        width: 300px;
+        height: 80px;
+    }
 }
 
 .thumbnail-box__button {
@@ -241,5 +253,65 @@ h1, .heading-text {
     100% {
         border-image: linear-gradient(263.24deg, #4646F9 21.05%, #9130F4 77.63%);
         border-image-slice: 1;
+    }
+}
+
+.thumbnail-box__card__text--big {
+    position: absolute;
+    padding: 4% 5%;
+    width: 85%;
+    @media screen and (max-width:600px) {
+        padding: 4% 8%;
+        width: 100%;
+    }
+}
+
+.balance-and-logo-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    @media screen and (max-width:600px) {
+        font-size: 10px;
+    }
+}
+
+.card-logo {
+    width: 88px;
+    height: 69px;
+    @media screen and (max-width:600px) {
+        width: 58px;
+        height: 39px;
+    }
+}
+
+.balance {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.balance__name {
+    opacity: 0.54;
+    font-weight: 300;
+}
+
+.balance__amount {
+    font-size: 28px;
+    font-weight: 500;
+    @media screen and (max-width:600px) {
+        font-size: 14px;
+    }
+}
+
+.card-number {
+    font-size: 14px;
+    position: absolute;
+    top: 200%;
+    @media screen and (min-width:1600px) {
+        top: 250%;
+    }
+    @media screen and (max-width:600px) {
+        font-size: 10px;
     }
 }
