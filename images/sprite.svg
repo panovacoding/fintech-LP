@@ -17,5 +17,30 @@
         <path d="M87.556 27.03C87.556 41.6561 75.5209 53.4896 60.6448 53.4896C54.3656 53.4896 48.6097 51.3582 44.0498 47.83C50.329 42.9792 54.291 35.4822 54.291 27.03C54.291 18.5777 50.2541 11.0807 44.0498 6.22966C48.6094 2.70178 54.3656 0.570389 60.6448 0.570389C75.5209 0.570389 87.5563 12.4772 87.5563 27.03H87.556Z" fill="#F79E1B"/>
     </symbol>
 
+    <symbol id="mastercard-logo--opacity"  viewBox="0 0 67 41" fill="none">
+        <path d="M24.2024 4.88507H42.1208V36.5412H24.2024V4.88507Z" fill="#B27BFF"/>
+        <path d="M25.3399 20.7132C25.3399 14.2814 28.4115 8.5765 33.1328 4.88506C29.6631 2.20049 25.2831 0.57859 20.5049 0.57859C9.18457 0.57859 0.0263672 9.58312 0.0263672 20.7132C0.0263672 31.8431 9.18457 40.8479 20.5046 40.8479C25.2829 40.8479 29.6628 39.226 33.1328 36.5412C28.4115 32.9058 25.3399 27.145 25.3399 20.7132V20.7132Z" fill="#9E59FF"/>
+        <path d="M66.296 20.7133C66.296 31.8431 57.1378 40.8479 45.8177 40.8479C41.0395 40.8479 36.6595 39.226 33.1896 36.5412C37.9678 32.85 40.9827 27.1451 40.9827 20.7133C40.9827 14.2815 37.9108 8.57652 33.1896 4.88508C36.6592 2.20051 41.0395 0.578613 45.8177 0.578613C57.1378 0.578613 66.2962 9.63919 66.2962 20.7133H66.296Z" fill="#9E59FF"/>
+    </symbol>
+
+    <symbol id="sim-card-icon" width="49" height="33" viewBox="0 0 49 33" fill="none">
+        <rect x="0.0263672" y="0.990189" width="48.5982" height="31.8552" rx="5" fill="url(#paint0_radial_126_3272)"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M24.3255 1.30715L18.9257 9.63197C18.9257 9.63197 21.0856 16.9162 18.9257 23.1598L24.3255 32.5252L29.7253 23.1598C29.7253 23.1598 27.5653 17.9568 29.7253 9.63197C29.7253 9.63197 24.3255 1.30715 24.3255 1.30715Z" stroke="#C7C7B6" stroke-width="1.3" stroke-linejoin="bevel"/>
+        <path d="M0.0263672 10.0144H18.9257" stroke="#C7C7B6" stroke-width="1.3" stroke-linejoin="bevel"/>
+        <path d="M29.1847 10.0144H48.624" stroke="#C7C7B6" stroke-width="1.3" stroke-linejoin="bevel"/>
+        <path d="M0.0263672 22.756H18.9257" stroke="#C7C7B6" stroke-width="1.3" stroke-linejoin="bevel"/>
+        <path d="M29.1847 22.756H48.624" stroke="#C7C7B6" stroke-width="1.3" stroke-linejoin="bevel"/>
+        <defs>
+        <radialGradient id="paint0_radial_126_3272" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(27.934 12.594) rotate(141.774) scale(32.7287 32.3564)">
+        <stop stop-color="white"/>
+        <stop offset="1" stop-color="#DDDCDA"/>
+        </radialGradient>
+        </defs>
+    </symbol>
+
+    <symbol id="dot" width="6" height="6" viewBox="0 0 6 6" fill="none">
+        <circle cx="3" cy="3.00002" r="3" fill="white"/>
+    </symbol>
+
 </svg>
 

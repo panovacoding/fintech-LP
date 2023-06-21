@@ -94,7 +94,7 @@ h1, .heading-text {
 }
 
 .thumbnail-box {
-    padding: 205px 0 110px 0;
+    padding: 205px 0 167px 0;
     display: flex;
     gap: 50px;
     justify-content: space-between;
@@ -102,7 +102,7 @@ h1, .heading-text {
     @media screen and (max-width: 970px) {
         flex-wrap: wrap;
         justify-content: center;
-        padding: 0 0 110px 0;
+        padding: 0 0 167px 0;
     }
 }
 
@@ -164,6 +164,7 @@ h1, .heading-text {
         width: 90px;
         height: 118px;
         right: -6%;
+        border-radius: 15px;
     }
 }
 
@@ -313,5 +314,81 @@ h1, .heading-text {
     }
     @media screen and (max-width:600px) {
         font-size: 10px;
+    }
+}
+
+.thumbnail-box__card__text--small {
+    position: absolute;
+    padding: 29px 25px;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 600px) {
+        padding: 10px;
+        font-size: 9px;
+    }
+}
+
+.card-logo--opacity {
+    width: 67px;
+    height: 41px;
+    @media screen and (max-width: 600px) {
+        width: 37px;
+        height: 18px;
+    }
+}
+
+.dots-wrap {
+    display: inline-flex;
+    gap: 9px;
+    @media screen and (max-width: 600px) {
+        gap: 1px;
+    }
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+
+}
+
+.sim-card {
+    width: 49px;
+    height: 33px;
+    background: radial-gradient(63.57% 63.57% at 57.43% 36.43%, #FFFFFF 0%, #DDDCDA 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 5px;
+    @media screen and (max-width: 600px) {
+        width: 30px;
+        height: 20px;
+    }
+}
+
+.sim-card-name {
+    opacity: 0.54;
+    font-weight: 300;
+    padding-top: 52px;
+    padding-bottom: 10px;
+    @media screen and (max-width: 600px) {
+        padding-top: 15px;
+    }
+}
+
+.dots-section {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    @media screen and (max-width: 600px) {
+        justify-content: space-between;
+    }
+}
+
+.sim-card-wrap {
+    padding-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 600px) {
+        padding-top: 5px;
     }
 }
