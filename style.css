@@ -60,7 +60,10 @@ h1, .heading-text {
 }
 
 .blue-bg {
-    background-color: #121139;
+    background: 
+        url(images/bg-bottom.svg) 0 100% no-repeat,
+        url(images/bg-top.svg) 100% 0 no-repeat;
+        background-color:  #121139;
 }
 
 .nav {
@@ -86,11 +89,6 @@ h1, .heading-text {
     height: 17px;
     background-color: transparent;
     border: none;
-}
-
-.burger-menu-btn {
-    width: 44px;
-    height: 17px;
 }
 
 .thumbnail-box {
@@ -391,4 +389,44 @@ h1, .heading-text {
     @media screen and (max-width: 600px) {
         padding-top: 5px;
     }
+}
+
+.logo-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 132px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.burger {
+    cursor: pointer;
+    width: 44px;
+    height: 17px;
+}
+
+.burger span{
+    display: block;
+    width: 44px;
+    height: 3px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    transition: all .3s ease-in-out;
+}
+
+.burger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: -1px;
+}
+
+.burger.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: -15px;
 }
