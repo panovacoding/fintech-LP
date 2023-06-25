@@ -13,10 +13,6 @@ body {
 
 h1 {
     font-size: 90px;
-    background: linear-gradient(263.24deg, #9130F4 21.05%, #4646F9 77.63%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
     @media screen and (max-width: 1600px) {
         font-size: 75px;
     }
@@ -27,6 +23,13 @@ h1 {
 
 button {
     cursor: pointer;
+}
+
+.gradient-text {
+    background: linear-gradient(263.24deg, #9130F4 21.05%, #4646F9 77.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .heading-text {
@@ -429,4 +432,61 @@ h1, .heading-text {
 .burger.open span:nth-child(3) {
     transform: rotate(-45deg);
     top: -15px;
+}
+
+.section-one {
+    padding: 80px 0 172px;
+    text-align: center;
+}
+
+.section-one__heading {
+    max-width: 50%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 50px;
+    @media screen and (max-width:768px) {
+        max-width: 100%;
+    }
+}
+
+.section-one__text {
+    padding: 40px 0 65px;
+    width: 36%;
+    margin: 0 auto;
+    font-weight: 500;
+    @media screen and (max-width:768px) {
+        width: 100%;
+    }
+}
+
+.section-one__image {
+    border-radius: 30px;
+    box-shadow: 15px 15px 50px #9130F4;
+}
+
+.section-one__image--desktop {
+    width: 960px;
+    height: 550px;
+    @media screen and (max-width:1100px) {
+        display: none;
+    }
+}
+
+.section-one__image--tablet {
+    @media screen and (min-width:1100px) {
+        display: none;
+    }
+    @media screen and (max-width:768px) {
+        display: none;
+    }
+    width: 692px;
+    height: 541px;
+}
+
+.section-one__image--mob {
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+    width: 300px;
+    height: 558px;
 }
