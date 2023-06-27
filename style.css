@@ -3,6 +3,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    /* outline: 1px solid red; */
 }
 
 body {
@@ -216,7 +217,8 @@ h1, .heading-text {
     }
 }
 
-.thumbnail-box__button {
+
+.gradient__button {
     text-transform: uppercase;
     font:inherit;
     font-size: 18px;
@@ -229,7 +231,7 @@ h1, .heading-text {
     border-image-slice: 1;
 }
 
-.thumbnail-box__button:hover {
+.gradient__button:hover {
     transition: all 0.1s ease-in;
     border-image: linear-gradient(263.24deg, #4646F9 21.05%, #9130F4 77.63%);
     box-shadow: 0 0 45px #4646F9;
@@ -615,4 +617,90 @@ h1, .heading-text {
     flex-direction: column;
     align-items: center;
     justify-content: center;    
+}
+
+.section-three {
+    text-align: center;
+    padding: 136px 0 272px;
+}
+
+.section-three > p {
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 130px;
+}
+
+.section-three__text-wrap {
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 55%;
+    background-color: #15123E;
+    padding: 280px 74px 262px;
+    border-radius: 30px;
+    position: relative;
+}
+
+@media screen and (max-width:1280px) {
+    .section-three__text-wrap {
+        max-width: 100%;
+    }
+
+    .section-three__text-wrap {
+        padding: 50px 10px 50px;
+    }
+}
+
+
+@media screen and (max-width:438px) {
+    .gradient__button--section-three {
+        padding: 5% 10%;
+    }
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.section-three__text-wrap > p {
+    font-weight: 500;
+    padding: 60px 0;
+    max-width: 480px;
+}
+
+@media screen and (max-width:1280px) {
+    .big-logo, .iphone, .section-three__iphone-wrap__list, .section-three__iphone-wrap__list > li {
+        display: none;
+    }
+
+    .section-three__iphone-wrap__list {
+        z-index: inherit;
+    }
+}
+
+.section-three__iphone-wrap {
+    width: 117%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 92px;
+    left: 65%;
+}
+
+.section-three__iphone-wrap__list > li {
+    background: 
+        linear-gradient(#1C1A50,#1C1A50) padding-box,
+        linear-gradient(to right, #9130F4, #4646F9) border-box;
+    border: 2px solid transparent;
+    border-radius:30px;
+    padding: 43px 67px;
+    font-size: 20px;
+}
+
+.section-three__iphone-wrap__list {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    margin-left: -5%;
+    z-index: -1;
 }
